@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,12 +12,13 @@
 		DEA7F946C6DA79D8416A56C4 /* Pods_parstagram_parstagramUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D13C72048530877E47766E65 /* Pods_parstagram_parstagramUITests.framework */; };
 		FCC6A6FD237F4B4200CA666F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC6A6FC237F4B4200CA666F /* AppDelegate.swift */; };
 		FCC6A6FF237F4B4200CA666F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC6A6FE237F4B4200CA666F /* SceneDelegate.swift */; };
-		FCC6A701237F4B4200CA666F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC6A700237F4B4200CA666F /* ViewController.swift */; };
 		FCC6A704237F4B4200CA666F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCC6A702237F4B4200CA666F /* Main.storyboard */; };
 		FCC6A706237F4B4500CA666F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCC6A705237F4B4500CA666F /* Assets.xcassets */; };
 		FCC6A709237F4B4500CA666F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCC6A707237F4B4500CA666F /* LaunchScreen.storyboard */; };
 		FCC6A714237F4B4500CA666F /* parstagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC6A713237F4B4500CA666F /* parstagramTests.swift */; };
 		FCC6A71F237F4B4500CA666F /* parstagramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC6A71E237F4B4500CA666F /* parstagramUITests.swift */; };
+		FCC6A731237F51DB00CA666F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC6A730237F51DB00CA666F /* LoginViewController.swift */; };
+		FCC6A733237F51E200CA666F /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC6A732237F51E200CA666F /* FeedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +51,6 @@
 		FCC6A6F9237F4B4200CA666F /* parstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = parstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCC6A6FC237F4B4200CA666F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FCC6A6FE237F4B4200CA666F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FCC6A700237F4B4200CA666F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FCC6A703237F4B4200CA666F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FCC6A705237F4B4500CA666F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FCC6A708237F4B4500CA666F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -61,6 +61,8 @@
 		FCC6A71A237F4B4500CA666F /* parstagramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = parstagramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCC6A71E237F4B4500CA666F /* parstagramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = parstagramUITests.swift; sourceTree = "<group>"; };
 		FCC6A720237F4B4500CA666F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCC6A730237F51DB00CA666F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		FCC6A732237F51E200CA666F /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,7 +113,6 @@
 				98A74DA9E12F975B934DD851 /* Pods-parstagramTests.debug.xcconfig */,
 				A7F0051C44CFFE2943A6AA26 /* Pods-parstagramTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -142,11 +143,12 @@
 			children = (
 				FCC6A6FC237F4B4200CA666F /* AppDelegate.swift */,
 				FCC6A6FE237F4B4200CA666F /* SceneDelegate.swift */,
-				FCC6A700237F4B4200CA666F /* ViewController.swift */,
 				FCC6A702237F4B4200CA666F /* Main.storyboard */,
 				FCC6A705237F4B4500CA666F /* Assets.xcassets */,
 				FCC6A707237F4B4500CA666F /* LaunchScreen.storyboard */,
 				FCC6A70A237F4B4500CA666F /* Info.plist */,
+				FCC6A730237F51DB00CA666F /* LoginViewController.swift */,
+				FCC6A732237F51E200CA666F /* FeedViewController.swift */,
 			);
 			path = parstagram;
 			sourceTree = "<group>";
@@ -408,8 +410,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCC6A701237F4B4200CA666F /* ViewController.swift in Sources */,
+				FCC6A731237F51DB00CA666F /* LoginViewController.swift in Sources */,
 				FCC6A6FD237F4B4200CA666F /* AppDelegate.swift in Sources */,
+				FCC6A733237F51E200CA666F /* FeedViewController.swift in Sources */,
 				FCC6A6FF237F4B4200CA666F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
