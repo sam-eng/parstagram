@@ -150,7 +150,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image_placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="bzc-E2-e9X">
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image_placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="bzc-E2-e9X">
                                 <rect key="frame" x="16" y="20" width="343" height="343"/>
                                 <gestureRecognizers/>
                                 <constraints>
@@ -191,7 +191,6 @@
                     <connections>
                         <outlet property="commentField" destination="iLM-ls-O6P" id="WQc-NZ-JkI"/>
                         <outlet property="imageView" destination="bzc-E2-e9X" id="iS5-J5-Zui"/>
-                        <outlet property="onSubmit" destination="XqA-oh-Twq" id="ugX-ud-ni2"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YkH-ym-dM5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
