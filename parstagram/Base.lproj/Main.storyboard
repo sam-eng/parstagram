@@ -135,7 +135,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <segue destination="H0P-8T-yGM" kind="presentation" identifier="cameraSegue" id="vi9-wk-I1e"/>
+                        <segue destination="H0P-8T-yGM" kind="presentation" identifier="cameraSegue" modalPresentationStyle="fullScreen" id="vi9-wk-I1e"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yGO-5H-gSG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -147,7 +147,7 @@
             <objects>
                 <viewController id="H0P-8T-yGM" customClass="CameraViewController" customModule="parstagram" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XqA-oh-Twq">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image_placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="bzc-E2-e9X">
