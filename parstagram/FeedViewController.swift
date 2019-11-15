@@ -16,7 +16,10 @@ class FeedViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func onPost(_ sender: Any) {
+        performSegue(withIdentifier: "cameraSegue", sender: nil)
+    }
+    
     /*
     // MARK: - Navigation
 
