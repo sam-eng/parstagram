@@ -20,6 +20,7 @@
 		FCC6A731237F51DB00CA666F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC6A730237F51DB00CA666F /* LoginViewController.swift */; };
 		FCC6A733237F51E200CA666F /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC6A732237F51E200CA666F /* FeedViewController.swift */; };
 		FCC6A735237F58DF00CA666F /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC6A734237F58DF00CA666F /* CameraViewController.swift */; };
+		FCC6A737237F995800CA666F /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC6A736237F995800CA666F /* PostCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		FCC6A730237F51DB00CA666F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		FCC6A732237F51E200CA666F /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		FCC6A734237F58DF00CA666F /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		FCC6A736237F995800CA666F /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +148,7 @@
 				FCC6A6FC237F4B4200CA666F /* AppDelegate.swift */,
 				FCC6A6FE237F4B4200CA666F /* SceneDelegate.swift */,
 				FCC6A702237F4B4200CA666F /* Main.storyboard */,
+				FCC6A736237F995800CA666F /* PostCell.swift */,
 				FCC6A734237F58DF00CA666F /* CameraViewController.swift */,
 				FCC6A705237F4B4500CA666F /* Assets.xcassets */,
 				FCC6A707237F4B4500CA666F /* LaunchScreen.storyboard */,
@@ -418,6 +421,7 @@
 				FCC6A6FD237F4B4200CA666F /* AppDelegate.swift in Sources */,
 				FCC6A733237F51E200CA666F /* FeedViewController.swift in Sources */,
 				FCC6A6FF237F4B4200CA666F /* SceneDelegate.swift in Sources */,
+				FCC6A737237F995800CA666F /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
